@@ -1,0 +1,75 @@
+.gradientEffect {
+    width: 100vw;
+    height: 100vh;
+}
+
+.gradientType1 {
+    height: 3vh;
+    background: linear-gradient(55deg, #B51F1A, #c46ec1);
+}
+
+.gradientType2 {
+    height: 3vh;
+    background: linear-gradient(55deg, #AF6480, #C3CEE5);
+}
+
+.gradientType3 {
+    height: 3vh;
+    background: linear-gradient(55deg, #4f89ab, #a6a961);
+}
+
+#gradient-1 {
+    background: linear-gradient(55deg, #b42621, #c46ec1);
+    animation: animateGradient 10s ease infinite;
+    background-size: 200% 200%;
+    color: rgb(198, 196, 196);
+}
+
+#gradient-2 {
+    background: linear-gradient(55deg, #AF6480, #C3CEE5);
+    animation: animateGradient 10s ease infinite;
+    background-size: 400% 400%;
+    color: rgb(220, 214, 214);
+}
+
+#gradient-3 {
+    background: linear-gradient(55deg, #4f89ab, #a6a961);
+    animation: animateGradient 10s ease infinite;
+    background-size: 400% 400%;
+    color: rgb(206, 200, 200);
+}
+
+@keyframes animateGradient {
+
+    0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+
+}
+
+.gradientDate {
+
+    font-size: 15vw;
+
+}
+
+.glassButton {
+
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(8px);
+    background: rgba(69, 68, 68, 0.1);
+    color: rgb(106, 103, 103);
+
+}
+
+.customDropdown {
+    top: 1vh;
+    right: 1vh;
+    z-index: 1;
+}

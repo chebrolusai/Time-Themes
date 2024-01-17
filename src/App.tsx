@@ -1,24 +1,67 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { ReactElement, useState } from "react";
+import Gradient from "./components/Gradient";
+import NightSky from "./components/NightSky";
+import Bubbles from "./components/Bubbles";
 
 function App() {
+  const [theme, setTheme] = useState<ReactElement>(<Gradient />);
+
+  const handleThemeChange = (theme: number) => {
+    switch (theme) {
+      case 1:
+        setTheme(<Gradient />);
+        return;
+      case 2:
+        setTheme(<NightSky />);
+        return;
+      case 3:
+        setTheme(<Bubbles />);
+        return;
+    }
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+    <div className="mainContainer">
+      <div className="dropdown customDropdown position-absolute">
+        <button
+          className="btn btn-sm dropdown-toggle glassButton"
+          type="button"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
         >
-          Learn React
-        </a>
-      </header>
+          Switch Theme
+        </button>
+        <ul className="dropdown-menu py-0">
+          <li>
+            <a
+              className="dropdown-item"
+              href="#"
+              onClick={() => handleThemeChange(1)}
+            >
+              Gradient
+            </a>
+          </li>
+          <li>
+            <a
+              className="dropdown-item"
+              href="#"
+              onClick={() => handleThemeChange(2)}
+            >
+              Night Sky
+            </a>
+          </li>
+          <li>
+            <a
+              className="dropdown-item"
+              href="#"
+              onClick={() => handleThemeChange(3)}
+            >
+              Bubbles
+            </a>
+          </li>
+        </ul>
+      </div>
+      {theme}
     </div>
   );
 }

@@ -1,0 +1,92 @@
+#bubbles {
+    height: 100vh;
+    width: 100vw;
+    background-color: #cddef1;
+    position: fixed;
+    overflow: hidden;
+}
+
+.bubble {
+
+    height: 250px;
+    width: 250px;
+    border-radius: 50% ;
+    opacity: 0;
+}
+
+.bubbleBlue {
+    background: linear-gradient(-45deg,#60a5f3,#FFFFFF);
+    left: 0vw;
+    position: absolute;
+    animation: moveup 6s linear infinite;
+    animation-delay: 1s;
+}
+
+.bubbleRed {
+    background: linear-gradient(-45deg,#fa0101,#FFFFFF);
+    left: 10vw;
+    top: 20vh;
+    position: absolute;
+    animation: moveup 6s linear infinite;
+    animation-delay: 3s;
+}
+
+.bubbleOrange {
+    background: linear-gradient(-45deg,#fa8201,#f4e0c5);
+    left: 60vw;
+    top: 20vh;
+    position: absolute;
+    animation: moveup 5s linear infinite;
+    animation-delay: 3s;
+}
+
+.bubblePink {
+    background: linear-gradient(-5deg,#f360d3,#FFFFFF);
+    left: 25vw;
+    position: absolute;
+    animation: moveup 5s linear infinite;
+    animation-delay: 3s;
+}
+
+.bubbleGreen {
+    background: linear-gradient(45deg,#4dca51,#FFFFFF);
+    left: 50vw;
+    position: absolute;
+    animation: moveup 6s linear infinite;
+    animation-delay: 2s;
+}
+
+.bubbleYellow {
+    background: linear-gradient(45deg,#f0ea42,#FFFFFF);
+    left: 40vw;
+    position: absolute;
+    animation: moveup 4s linear infinite;
+    animation-delay: 2.5s;
+}
+
+.bubblePurple {
+    background: linear-gradient(20deg,#6505f6,#FFFFFF);
+    left: 75vw;
+    position: absolute;
+    animation: moveup 4s linear infinite;
+    animation-delay: 2.5s;
+}
+
+@keyframes moveup {
+    0% {
+        transform: translateY(100vh) scale(0.4);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(0vh) scale(1);
+        opacity: 0;
+    }
+}
+
+.glassDate {
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    background: rgba(69, 68, 68, 0.1);
+    color: rgb(71, 70, 70);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

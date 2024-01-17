@@ -1,0 +1,39 @@
+.darkEffect {
+    height: 100vh;
+    width: 100vw;
+    background: rgb(1, 2, 14);
+    color: rgba(237, 234, 234, 0.2);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#stars {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+}
+
+.star {
+    position: absolute;
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background: rgb(230, 228, 228);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(255, 255, 255, 0.6), 0 0 30px rgba(255, 255, 255, 0.4);
+    animation: glow 3s infinite;
+}
+
+@keyframes glow {
+    0% {
+        transform: scale(1);
+        opacity: 0.5;
+      }
+      50% {
+        transform: scale(1.1);
+        opacity: 1;
+      }
+      100% {
+        transform: scale(1);
+        opacity: 0.5;
+      }
+
+}

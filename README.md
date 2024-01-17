@@ -1,46 +1,52 @@
-# Getting Started with Create React App
+<h1 align="center">
+🌐 Time Themes
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Introducing Digital Time Display React App – an elegant and visually stunning time visualization experience, bringing the aesthetics of a screen saver to your digital clock. With carefully crafted themes, each designed for aesthetic appeal and user delight, transforming time-telling into a delightful experience. Choose from a variety of visually pleasing themes with a touch of style – it's a visual treat. Elevate your timekeeping experience with this app. Welcome to my of time display!
 
-## Available Scripts
+## Getting Started
 
-In the project directory, you can run:
+get a local copy up and running - follow these simple steps.
 
-### `npm start`
+### Prerequisites
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- npm
+  ```sh
+  npm install npm@latest -g
+  ```
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Installation
 
-### `npm test`
+1. Clone the repo
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Usage
 
-### `npm run build`
+Select your desired theme from the top right corner of the screen. Some themes might have additional preferences on the top right of the screen.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Click on the switch theme button to choose
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### 1. Gradients
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Screenshot 2024-01-17 at 1 21 45 AM](https://github.com/chebrolusai/DocBook/assets/144749543/281bd2db-0d1e-4c64-ba73-227c99d409b6)
 
-### `npm run eject`
+#### 2. Night Sky
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+![Screenshot 2024-01-17 at 1 23 13 AM](https://github.com/chebrolusai/DocBook/assets/144749543/f2ce00c6-7a63-4e12-b6b5-aa6cdf3dc701)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### 3. Bubbles
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+![Screenshot 2024-01-17 at 1 24 02 AM](https://github.com/chebrolusai/DocBook/assets/144749543/9dba7ed0-8d28-4b39-97aa-eec77ac4d6c0)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Hit them up and enjoy!
 
-## Learn More
+### More to come!
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Many more themes are being designed and are under development.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Contact
+
+Sai Siddhardha Chebrolu - https://www.linkedin.com/in/sai-siddhardha-chebrolu-622383182/
