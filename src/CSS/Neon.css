@@ -1,0 +1,26 @@
+.neonContainer {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+}
+
+.neonText {
+    position: relative;
+    font-size: 15vw;
+    color: #e6e4e4;
+}
+
+#purpleNeon {
+    text-shadow: 0 0 10px #d003f4, 0 0 20px #d003f4, 0 0 40px #d003f4, 0 0 80px #d003f4, 0 0 160px #d003f4;
+    background-color: rgb(44, 7, 45);
+}
+
+#redNeon {
+    text-shadow: 0 0 10px #f40303, 0 0 20px #f40303, 0 0 40px #f40303, 0 0 80px #f40303, 0 0 160px #f40303;
+    background-color: rgb(45, 7, 13);
+}
+
+#blueNeon {
+    text-shadow: 0 0 10px #1b03f4, 0 0 20px #1b03f4, 0 0 40px #1b03f4, 0 0 80px #1b03f4, 0 0 160px #1b03f4;
+    background-color: rgb(7, 10, 45);
+}
