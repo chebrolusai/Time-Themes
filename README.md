@@ -41,6 +41,10 @@ Click on the switch theme button to choose
 
 ![Screenshot 2024-01-17 at 1 24 02 AM](https://github.com/chebrolusai/DocBook/assets/144749543/9dba7ed0-8d28-4b39-97aa-eec77ac4d6c0)
 
+#### 4. Neon
+
+<img width="1440" alt="Screenshot 2024-01-22 at 5 11 21 PM" src="https://github.com/chebrolusai/Time-Themes/assets/144749543/86ed5f8e-1153-4f8c-95e0-29a4f9a66ef4">
+
 Hit them up and enjoy!
 
 ### More to come!
